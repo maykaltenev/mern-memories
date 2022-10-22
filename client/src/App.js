@@ -15,8 +15,6 @@ const App = () => (
         <Route exact path="/" element={<Home />} />
         <Route exact path="/auth" element={<Auth />} />
       </Routes>
-
-
     </Container>
   </BrowserRouter>
 );
