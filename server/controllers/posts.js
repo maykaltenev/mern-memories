@@ -78,7 +78,7 @@ export const likePost = async (req, res) => {
     }
     const updatedPost = await PostMessage.findByIdAndUpdate(id, post, { new: true });
 
-    res.json(updatedPost);
+    res.status(200).json(updatedPost);
 }
 
 
